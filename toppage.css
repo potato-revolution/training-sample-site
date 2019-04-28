@@ -3,7 +3,7 @@
 body {
   font-family: 'Lato', sans-serif;
   font-family: 'Noto Serif JP', serif;
-  margin: 0 50px;
+  margin: auto;
 }
 
 .header_logo {
@@ -57,7 +57,7 @@ body {
   text-align: center;
 }
 
-.coffee_text, .making_bread_text {
+.coffee_text, .pour_coffee_text, .making_bread_text {
   padding-top: 100px;
   text-align: center;
 }
@@ -70,8 +70,16 @@ body {
   opacity: 0.7
 }
 
-.making_bread_visual img {
+.pour_coffee_visual img {
   float: right;
+}
+
+.pour_coffee_visual img:hover {
+  opacity: 0.7
+}
+
+.making_bread_visual img {
+  float: left;
 }
 
 .making_bread_visual img:hover {
