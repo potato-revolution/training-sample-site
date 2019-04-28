@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-family: 'Noto Serif JP', serif;
+  margin: 0 50px;
+}
+
+.header_logo {
+  padding-left: 100px;
+  float: left;
+}
+
+.navigation {
+  padding-top: 70px;
+  margin-right: 100px;
+  float: right;
+}
+
+.navigation ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 50px;
+  font-size: 20px;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.navigation ul li a:hover {
+  text-decoration: underline;
+}
+
+.main_visual {
+  background-image: url("images/crowdcafe_top_main.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.catch_phrase h1 {
+  margin: auto;
+  padding-top: 100px;
+  width: 600px;
+  color: #ffffff;
+  font-size: 50px;
+}
+
+.information, .news {
+  padding: 100px 200px 0;
+}
+
+.information h2, .news h2 {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.coffee_text, .making_bread_text {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.coffee_visual img {
+  float: left;
+}
+
+.coffee_visual img:hover {
+  opacity: 0.7
+}
+
+.making_bread_visual img {
+  float: right;
+}
+
+.making_bread_visual img:hover {
+  opacity: 0.7
+}
+
+.news ul li {
+  list-style-type: square;
+  font-size: 20px;
+}
+
+.over {
+  overflow: hidden;
+}
+
+.footer {
+  text-align: center;
+  padding: 100px 200px 50px;
+}
+
+.footer ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.footer ul li a:hover {
+  text-decoration: underline;
+}
