@@ -3,33 +3,32 @@
 body {
   font-family: 'Lato', sans-serif;
   font-family: 'Noto Serif JP', serif;
-  margin: auto;
+  padding: 0;
+  margin: 0;
 }
 
 .header_logo {
-  padding-left: 100px;
-  float: left;
+  margin-left: 150px;
 }
 
-.navigation {
+.nav {
   padding-top: 70px;
-  margin-right: 100px;
-  float: right;
+  margin-right: 150px;
 }
 
-.navigation ul li {
+.nav ul li {
   list-style: none;
   display: inline-block;
   margin-right: 50px;
   font-size: 20px;
 }
 
-.navigation ul li a {
+.nav ul li a {
   text-decoration: none;
   color: #000000;
 }
 
-.navigation ul li a:hover {
+.nav ul li a:hover {
   text-decoration: underline;
 }
 
@@ -40,59 +39,60 @@ body {
   height: 100vh;
 }
 
-.catch_phrase h1 {
+.catch_phrase {
+  color: #ffffff;
+}
+
+.catch_phrase p {
   margin: auto;
   padding-top: 100px;
   width: 600px;
-  color: #ffffff;
   font-size: 50px;
 }
 
-.information, .news {
+.catch_phrase h1 {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 100px;
+}
+
+.intro, .news {
   padding: 100px 200px 0;
 }
 
-.information h2, .news h2 {
+.intro h2, .news h2 {
   margin-bottom: 50px;
   text-align: center;
+  font-size: 30px;
 }
 
-.coffee_text, .pour_coffee_text, .making_bread_text {
+.opacity img:hover {
+  opacity: 0.7
+}
+
+.intro_text {
   padding-top: 100px;
   text-align: center;
 }
 
-.coffee_visual img {
-  float: left;
+.news_contents {
+  width: 600px;
+  margin: auto;
 }
 
-.coffee_visual img:hover {
-  opacity: 0.7
+.news_contents ul {
+  padding-left: 0;
 }
 
-.pour_coffee_visual img {
-  float: right;
-}
-
-.pour_coffee_visual img:hover {
-  opacity: 0.7
-}
-
-.making_bread_visual img {
-  float: left;
-}
-
-.making_bread_visual img:hover {
-  opacity: 0.7
-}
-
-.news ul li {
-  list-style-type: square;
+.news_contents ul li {
+  padding: 20px;
+  list-style: none;
   font-size: 20px;
+  border-top: 2px solid #000000;
 }
 
-.over {
-  overflow: hidden;
+.last_content {
+  border-bottom: 2px solid #000000;
 }
 
 .footer {
@@ -113,4 +113,25 @@ body {
 
 .footer ul li a:hover {
   text-decoration: underline;
+}
+
+.footer_logo img {
+  width: 100px;
+  height: auto;
+}
+
+/*overflow: hidden*/
+
+.over {
+  overflow: hidden;
+}
+
+/*フロート設定*/
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
 }
